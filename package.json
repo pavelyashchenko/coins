@@ -1,0 +1,26 @@
+{
+  "name": "gulp",
+  "version": "1.2.0",
+  "description": "FrontEnd assembly for Aura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel Yashchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "cssmin": "^0.4.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-stylus": "^2.7.1",
+    "gulp-uglify": "^3.0.2",
+    "izimodal": "^1.5.1",
+    "normalize.css": "^8.0.1"
+  },
+  "dependencies": {}
+}

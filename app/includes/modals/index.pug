@@ -1,0 +1,20 @@
+mixin modal-first(data) 
+  .modal.modal-first#modalFirst
+    .modal__inner
+      .modal__button
+        button.modal__button-inner(type="button" data-izimodal-close="")
+          | Try again
+
+mixin modal-second(data) 
+  .modal.modal-second#modalSecond
+    .modal__inner
+      .modal__button
+        button.modal__button-inner(type="button" data-izimodal-close="")
+          | Try again
+
+mixin modal-third(data) 
+  .modal.modal-third#modalThird
+    .modal__inner
+      .modal__button
+        a.modal__button-inner(href="https://sloterra.com/registration")
+          | Grab bonus!

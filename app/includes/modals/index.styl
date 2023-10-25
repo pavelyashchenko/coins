@@ -1,0 +1,173 @@
+.iziModal-overlay
+  backdrop-filter blur(10px) !important
+
+.modal
+  box-shadow none
+
+  .modal__inner
+    background-repeat no-repeat
+    background-size contain
+
+  &-first
+    .modal__inner
+      background-image url("../img/popups/popup-bg-1.png")
+      height 600px
+
+    .modal__button
+      top 380px
+
+  &-second
+    .modal__inner
+      background-image url("../img/popups/popup-bg-2.png")
+      height 649px
+
+    .modal__button
+      top 400px
+
+  &-third
+    .modal__inner
+      background-image url("../img/popups/popup-bg-3.png")
+      height 663px
+
+    .modal__button
+      top 395px
+
+.modal__button
+  position relative
+  text-align center
+
+  &-inner
+    font-family "Johnny-Pistolas", sans-serif
+    color #FFE662
+    text-align center
+    text-shadow 0px 5.9196367263793945px 5.9196367263793945px rgba(0, 0, 0, 0.25)
+    font-size 66.596px
+    font-weight 400
+    text-transform uppercase
+    padding 3px 10px 6px
+    background-image url("../img/popups/modal-button.png")
+    background-repeat no-repeat
+    background-size contain
+    background-position center
+    text-align center
+    text-shadow 0px 4px 4px rgba(0, 0, 0, 0.25)
+    font-size 60px
+    line-height 1
+    min-width 268px
+
+    &:hover
+      transform scale(0.97)
+
+@media (max-width 768px)
+  .button
+    font-size 16px
+    padding 20px 45px
+
+  .modal
+    .modal__inner
+      margin 0 auto
+
+    &-first
+      .modal__inner
+        width 568px
+        height 454px
+
+      .modal__button
+        top 290px
+
+        &-inner
+          min-width 189px
+          font-size 46px
+
+    &-second
+      .modal__inner
+        width 568px
+        height 492px
+
+      .modal__button
+        top 305px
+
+        &-inner
+          min-width 189px
+          font-size 46px
+
+    &-third
+      .modal__inner
+        width 568px
+        height 503px
+
+      .modal__button
+        top 295px
+
+        &-inner
+          font-size 46px
+          background-size contain
+
+@media (max-width 570px)
+  .modal
+    &-first
+      .modal__inner
+        width 428px
+        height 342px
+
+      .modal__button
+        top 210px
+
+    &-second
+      .modal__inner
+        width 420px
+        height 364px
+
+      .modal__button
+        top 222px
+
+        &-inner
+          font-size 35px
+
+    &-third
+      .modal__inner
+        width 420px
+        height 372px
+
+      .modal__button
+        top 220px
+
+        &-inner
+          font-size 32px
+
+@media (max-width 420px)
+  .modal
+    &-first
+      .modal__inner
+        width 320px
+        height 260px
+
+      .modal__button
+        top 160px
+
+        &-inner
+          min-width 135px
+          font-size 30px
+
+    &-second
+      .modal__inner
+        width 320px
+        height 277px
+
+      .modal__button
+        top 167px
+
+        &-inner
+          min-width 135px
+          font-size 30px
+
+    &-third
+      .modal__inner
+        width 320px
+        height 283px
+
+      .modal__button
+        top 166px
+
+        &-inner
+          font-size 30px

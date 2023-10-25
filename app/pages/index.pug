@@ -1,0 +1,65 @@
+extends ../includes/page
+
+block head
+  - var title = "Halloween game"
+
+block styles
+  link(rel="stylesheet" href="css/libs.min.css")
+  link(rel="stylesheet" href="css/landing.min.css")
+
+block scripts 
+  script(src="scripts/libs.min.js")
+  script(src="scripts/main.js")
+
+block main
+  section.game
+    .game__inner
+      .game__wrapper
+        .game__logo
+          a.game__logo-link(href="#")
+            img.game__logo-img(src="img/logo.png" alt="logo") 
+
+        .game__main
+          .game__main-inner
+            button.game__main-button(type="button")
+            button.game__main-button(type="button")
+            button.game__main-button(type="button")
+            button.game__main-button(type="button")
+            button.game__main-button(type="button")
+            button.game__main-button(type="button")
+            button.game__main-button(type="button")
+            button.game__main-button(type="button")
+            button.game__main-button(type="button")
+
+      .game__info
+        .game__sloterra
+          img(src="img/sloterra.png" alt="sloterra")
+
+        .game__partners
+          a.game__partners-link(href="#")
+            img.game__partners-img(src="img/partners/bitcoin.svg" alt="Bitcoin")
+          a.game__partners-link(href="#")
+            img.game__partners-img(src="img/partners/visa.svg" alt="visa")
+          a.game__partners-link(href="#")
+            img.game__partners-img(src="img/partners/mastercard.svg" alt="mastercard")
+          a.game__partners-link(href="#")
+            img.game__partners-img(src="img/partners/skrill.svg" alt="skrill ")
+          a.game__partners-link(href="#")
+            img.game__partners-img(src="img/partners/neteller.svg" alt="neteller")
+          a.game__partners-link(href="#")
+            img.game__partners-img(src="img/partners/noda.svg" alt="noda")
+          a.game__partners-link(href="#")
+            img.game__partners-img(src="img/partners/picksell.svg" alt="picksell")
+          a.game__partners-link(href="#")
+            img.game__partners-img(src="img/partners/interac.svg" alt="interac")
+          a.game__partners-link(href="#")
+            img.game__partners-img(src="img/partners/coinspaid.svg" alt="coinspaid")
+          a.game__partners-link(href="#")
+            img.game__partners-img(src="img/partners/pix.svg" alt="pix")
+          a.game__partners-link(href="#")
+            img.game__partners-img(src="img/partners/khipu.svg" alt="khipu")
+          a.game__partners-link(href="#")
+            img.game__partners-img(src="img/partners/webpay.svg" alt="webpay")
+
+        p.game__copyright
+          | Copyright © 2022 sloterra.com is a brand name of Mudanimation N.V. Reg. No. 159673, having its registered address at at Zuikertuintjeweg Z/N (Zuikertuin Tower), Curaçao, licensed to conduct online gaming operations by the Government of Curacao under license 365/JAZ Sub-License GLH-OCCHKTW0705042022. Gambling can be addictive. Play responsibly. sloterra.com only accepts customers over 18 years of age.
